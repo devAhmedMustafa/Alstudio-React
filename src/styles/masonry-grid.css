@@ -1,0 +1,18 @@
+.masonry-grid{
+    columns: 3;
+    column-gap: 10px;
+    padding: 10px;
+    min-height: 500px;
+}
+
+@media (min-width: 1400px) {
+    .masonry-grid{
+        columns: 5;
+    }
+}
+
+@media (max-width: 678px) {
+    .masonry-grid{
+        columns: 2;
+    }
+}
